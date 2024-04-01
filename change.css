@@ -1,0 +1,24 @@
+@media only screen and (max-width: 600px) {
+  nav{
+    display: none;
+  }
+  .row{
+    display: unset;
+  }
+  h1{
+    font-size: 48px;
+  }
+  h2{
+    font-size: 42px;
+  }
+  .grid-container{
+    display: flex;
+    gap: 16px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+  }
+  .card{
+    min-width: 100%;
+    width: 100%;
+  }
+}

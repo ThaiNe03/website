@@ -1,0 +1,46 @@
+header{
+  background-color: #353A3E;
+  height: 72px;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+nav{
+  margin-left: auto;
+}
+a{
+  font-size: 20px;
+  font-weight: 400px;
+  color: rgb(240,242,244);
+  text-decoration: none;
+}
+nav a{
+  margin-left: 12px;
+}
+button{
+  font-size: 18px;
+  font-weight: 700px;
+  color: rgb(255, 255, 255);
+  background-color: #06c;
+  padding: 16px 24px;
+  border-radius: 42px;
+  border: none;
+  margin: 42px;
+}
+.btncustom{
+  color: #06c;
+  background-color: rgb(255, 255, 255);
+  border-color: #06c;
+  margin-left: 32px;
+}
+.logo{
+  font-size: 32px;
+  font-weight: 700;
+  color: #CCAC00;
+}
+.img-logo{
+  width:50px; 
+  border-radius: 50px;
+}
